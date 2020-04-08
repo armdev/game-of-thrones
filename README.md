@@ -28,4 +28,4 @@ You can start from any microservice.
 Any pool requests are welcome!
 
 
-<img src="shoot.gif" height="800px">
+<img src="shoot.gif" height="400px">
