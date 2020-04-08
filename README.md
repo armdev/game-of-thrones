@@ -21,7 +21,7 @@ After start-up they starting shoot one to another and try to shut down enemy.
 
 No Docker, No database.
 
-Target shoot list has also fake endpoints to give opponents time for start.
+Target shoot list has fake endpoints to give opponents time for start.
 
 You can start from any microservice.
 
