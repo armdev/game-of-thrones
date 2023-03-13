@@ -26,7 +26,7 @@ public class KillerService {
     @Autowired
     private RestTemplate restTemplate;
 
-    private List<String> targetList = Arrays.asList("http://localhost:2020/actuator/shutdown", "http://venera:2077/actuator/shutdown",
+    private final List<String> targetList = Arrays.asList("http://localhost:2020/actuator/shutdown", "http://venera:2077/actuator/shutdown",
             "http://localhost:2022/actuator/shutdown", "http://localhost:2023/actuator/shutdown", "http://mars:8585858585/actuator/shutdown");
 
     @Scheduled(fixedDelay = 8000)
